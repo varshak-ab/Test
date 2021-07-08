@@ -1,0 +1,12 @@
+[{
+    "employeeId":101, "employeeName":"Suresh","employeeSal":30000
+  },
+  {
+    "employeeId":102, "employeeName":"Ramesh","employeeSal":20000
+  },
+  {
+    "employeeId":103, "employeeName":"Naresh","employeeSal":15000
+  }]
+
+
+  

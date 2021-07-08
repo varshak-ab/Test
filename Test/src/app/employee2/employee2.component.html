@@ -1,0 +1,17 @@
+<div class ="container">
+    <table align='center' border="1px"class="table table-hover">
+      <td colspan="4">Search:<input type="text" [(ngModel)]="filter"  ></td>
+
+        <tr><th>EmployeeID</th>
+            <th>EmployeeName</th>
+            <th>EmployeeSalary</th>
+
+
+        </tr>
+        <tr ngcolor *ngFor="let employee of  employees|search:filter">
+        <td>{{employee.employeeId}}</td>
+        <td>{{employee.employeeName | titlecase}}</td>
+        <td>{{employee.employeeSal | currency:'USD'}}</td>
+    </tr>
+    </table>
+    </div>
